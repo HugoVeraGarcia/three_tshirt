@@ -12,7 +12,7 @@ const state = proxy({
     'cyan'
   ],
   // decals: ['react', 'three2', 'pmndrs', 'hugo_malo1', 'la_raza'],
-  decals: ['hugo_malo1', 'la_raza','hugo_malo2', 'german', 'el_senior', 'jesus'],
+  decals: ['hugo_malo1', 'la_raza', 'german', 'el_senior', 'jesus', 'bertha'],
   selectedColor: '#EFBD4E',
   selectedDecal: 'hugo_malo1'
 })

@@ -127,4 +127,4 @@ function CameraRig({ children }) {
 
 useGLTF.preload('/shirt_baked_collapsed.glb')
 //;['/react.png', '/three2.png', '/pmndrs.png','/hugo_malo1.png', '/la_raza.png'].forEach(useTexture.preload)
-;['/hugo_malo1.png', '/la_raza.png', '/hugo_malo2.png', '/german.png', '/el_senior.png', '/jesus.png'].forEach(useTexture.preload)
+;['/hugo_malo1.png', '/la_raza.png', '/german.png', '/el_senior.png', '/jesus.png', '/bertha.png'].forEach(useTexture.preload)
