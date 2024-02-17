@@ -53,9 +53,10 @@ function Intro({ config }) {
         <div className="support--content">
           <div>
             <p>
-            Crea tu camiseta única y exclusiva con nuestro novedoso 3D
-            herramienta de personalización. <strong>Da rienda suelta a tu imaginación</strong> y
-            define tu propio estilo.
+              Crea tu camiseta única y exclusiva con nuestro novedoso 3D
+              herramienta de personalización.{' '}
+              <strong>Da rienda suelta a tu imaginación</strong> y define tu
+              propio estilo.
             </p>
             <button
               style={{ background: 'black' }}

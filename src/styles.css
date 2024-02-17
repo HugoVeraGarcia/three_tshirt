@@ -192,7 +192,7 @@ button:hover {
 .decals img {
   width: 60px;
   filter: saturate(0) invert(0) brightness(5.5);
-  
+
   transition: all 0.2s ease-in-out;
 }
 
@@ -238,5 +238,86 @@ button:hover {
   .support--content {
     top: -10%;
     left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section--container {
+    margin-top: 2vh;
+    margin-left: 2vw;
+  }
+
+  .support--content {
+    position: relative;
+    top: -15%;
+    left: 20px;
+  }
+
+  .section--container h1 {
+    font-weight: 900;
+    font-size: 15vh;
+    letter-spacing: -6px;
+    font-style: italic;
+    width: 30%;
+    line-height: 15vh;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .customizer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 5px;
+  }
+
+  .color-options {
+    position: absolute;
+    display: flex;
+    gap: 2px;
+    bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* DECALS */
+  .decals--container {
+    display: flex;
+    width: 1000px;
+    gap: 10px;
+  }
+
+  .decals {
+    position: absolute;
+    left: 10px;
+    bottom: 80px;
+  }
+
+  .decals img {
+    width: 45px;
+    filter: saturate(0) invert(0) brightness(5.5);
+
+    transition: all 0.2s ease-in-out;
+  }
+
+  .decals img:hover {
+    filter: none;
+    transform: scale(1.8);
+    cursor: pointer;
+  }
+
+  .exit {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: black;
+    box-shadow: inset 0 0 0 0.09px black;
+  }
+
+  .share {
+    bottom: 20px;
+    position: absolute;
+    right: 40px;
   }
 }
